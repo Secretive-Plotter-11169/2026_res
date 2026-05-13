@@ -4,9 +4,9 @@ import {Link} from "expo-router"
 
 const Signin = () => {
     return (
-        <View>
+        <View className="flex-1 items-center justify-center bg-background">
             <Text>sign in</Text>
-            <Link href="/auth/sign-up"> Create Account</Link>
+            <Link href="../(tabs)/index.tsx" className="p-4 m-4 rounded bg-primary text-white"> Go to Home</Link>
         </View>
     );
 };
